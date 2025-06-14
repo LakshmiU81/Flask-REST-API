@@ -4,7 +4,7 @@ import os
 
 app = Flask(__name__)
 
-Directory_path = r"C:\Users\venka\OneDrive\Desktop\All files\Learn Python"
+Directory_path = r"C:\Users\venka\OneDrive\Desktop\All files\Learn Python" # this is my directory path
 
 
 @app.route('/info/json')
